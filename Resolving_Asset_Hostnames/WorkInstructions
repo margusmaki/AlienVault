@@ -1,0 +1,17 @@
+Connect to the appliance via SSH
+Select Option *3 – "Jailbreak System" 
+Type the following command "vi ResolveFix.sh" without quotations
+Input the certificate fix script with all "# lines removed"
+Press the escape key and enter the command ":wq" without quotations
+Enter the command "chmod +x ResolveFix.sh" without quotations
+Press the enter key
+Enter the command "./ResolveFix.sh" without quotations and press the enter key
+
+or
+
+Github cURL
+
+curl -O https://raw.githubusercontent.com/margusmaki/AlienVault/master/Resolving_Asset_Hostnames/ResolveFix.sh
+chmod +x ResolveFix.sh
+./ResolveFix.sh
+
